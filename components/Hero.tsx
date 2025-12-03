@@ -63,9 +63,9 @@ const Hero: React.FC = () => {
           {/* Hero Image / Visual */}
           <div className="relative hidden lg:block h-[600px] w-full">
              <div className="absolute inset-0 bg-slate-200 rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-all duration-700">
-                <img 
-                  src="https://picsum.photos/800/1000?grayscale" 
-                  alt="Minimalist Architecture" 
+                <img
+                  src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1000&q=80"
+                  alt="Swedish Digital Marketing"
                   className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent" />

@@ -7,28 +7,28 @@ const projects = [
     id: 1,
     title: "Svensk Möbel AB",
     category: "E-handel / SEO / Shopify",
-    image: "https://picsum.photos/seed/furniture/800/600",
+    image: "https://images.unsplash.com/photo-1556228720-195a672e8a03?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80",
     stats: "+340% Organisk Trafik"
   },
   {
     id: 2,
     title: "Stockholm Fashion Week",
     category: "Branding / Digital Marknadsföring",
-    image: "https://picsum.photos/seed/fashion/800/600",
+    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80",
     stats: "2.5M Sociala Medier Räckvidd"
   },
   {
     id: 3,
     title: "Nordic Tech Startup",
     category: "Webbutveckling / PPC",
-    image: "https://picsum.photos/seed/tech/800/600",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80",
     stats: "450% Konverteringsökning"
   },
   {
     id: 4,
     title: "Göteborg E-handel",
     category: "Magento / SEO Optimering",
-    image: "https://picsum.photos/seed/ecommerce/800/600",
+    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80",
     stats: "Top 3 Google Ranking"
   }
 ];

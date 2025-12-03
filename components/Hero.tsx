@@ -18,36 +18,36 @@ const Hero: React.FC = () => {
             <div className="inline-flex items-center space-x-2 bg-white/60 backdrop-blur border border-slate-200 rounded-full px-4 py-1.5 shadow-sm">
               <span className="w-2 h-2 rounded-full bg-eco-500 animate-pulse" />
               <span className="text-xs font-semibold uppercase tracking-wide text-slate-600">
-                Accepting New Clients for Q4
+                🇸🇪 Specialister på Svensk Marknad | SEO Byrå Sverige
               </span>
             </div>
-            
+
             <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-medium text-slate-900 leading-tight">
-              Digital excellence, <br />
+              Digital tillväxt i Sverige, <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-eco-600 to-teal-500">
-                sustainably built.
+                maximal effekt.
               </span>
             </h1>
-            
+
             <p className="text-lg md:text-xl text-slate-600 max-w-lg leading-relaxed">
-              We craft high-performance websites that look expensive but cost the earth nothing. 
-              Minimal carbon footprint, maximum impact.
+              Ledande SEO-byrå i Sverige. Vi hjälper svenska företag att dominera online med
+              webbutveckling, e-handel, och digital marknadsföring som konverterar.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" onClick={() => document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'})}>
-                Let's Talk
+                Boka Gratis Konsultation
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               <Button variant="white" size="lg" onClick={() => document.getElementById('work')?.scrollIntoView({behavior: 'smooth'})}>
-                View Portfolio
+                Se Vårt Arbete
               </Button>
             </div>
 
             <div className="pt-8 flex items-center gap-8 text-slate-500">
               <div className="flex items-center gap-2">
                 <Globe className="w-5 h-5 text-eco-600" />
-                <span className="text-sm font-medium">Carbon Neutral</span>
+                <span className="text-sm font-medium">🇸🇪 Svensk Marknad</span>
               </div>
               <div className="flex items-center gap-2">
                 <Zap className="w-5 h-5 text-eco-600" />
@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
               </div>
               <div className="flex items-center gap-2">
                 <ShieldCheck className="w-5 h-5 text-eco-600" />
-                <span className="text-sm font-medium">GDPR Compliant</span>
+                <span className="text-sm font-medium">GDPR Kompatibel</span>
               </div>
             </div>
           </div>
@@ -70,8 +70,8 @@ const Hero: React.FC = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent" />
                 <div className="absolute bottom-8 left-8 text-white">
-                   <p className="font-serif text-2xl">Nordic Furniture Co.</p>
-                   <p className="text-sm text-slate-200">Rebranding & E-commerce • 2024</p>
+                   <p className="font-serif text-2xl">Svensk E-handel AB</p>
+                   <p className="text-sm text-slate-200">SEO & E-handelsutveckling • Stockholm • 2024</p>
                 </div>
              </div>
           </div>

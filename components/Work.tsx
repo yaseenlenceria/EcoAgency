@@ -5,31 +5,31 @@ import Button from './Button';
 const projects = [
   {
     id: 1,
-    title: "Oasis Architecture",
-    category: "Web Design / Branding",
-    image: "https://picsum.photos/seed/arch/800/600",
-    stats: "40% Lower Bounce Rate"
+    title: "Svensk Möbel AB",
+    category: "E-handel / SEO / Shopify",
+    image: "https://picsum.photos/seed/furniture/800/600",
+    stats: "+340% Organisk Trafik"
   },
   {
     id: 2,
-    title: "Pure Earth Skincare",
-    category: "E-Commerce / Shopify",
-    image: "https://picsum.photos/seed/skin/800/600",
-    stats: "2.5s Faster Load Time"
+    title: "Stockholm Fashion Week",
+    category: "Branding / Digital Marknadsföring",
+    image: "https://picsum.photos/seed/fashion/800/600",
+    stats: "2.5M Sociala Medier Räckvidd"
   },
   {
     id: 3,
-    title: "Urban Mobility App",
-    category: "Product Design / UX",
+    title: "Nordic Tech Startup",
+    category: "Webbutveckling / PPC",
     image: "https://picsum.photos/seed/tech/800/600",
-    stats: "150k Active Users"
+    stats: "450% Konverteringsökning"
   },
   {
     id: 4,
-    title: "Green Finance Corp",
-    category: "Corporate Portal",
-    image: "https://picsum.photos/seed/finance/800/600",
-    stats: "Carbon Neutral Certified"
+    title: "Göteborg E-handel",
+    category: "Magento / SEO Optimering",
+    image: "https://picsum.photos/seed/ecommerce/800/600",
+    stats: "Top 3 Google Ranking"
   }
 ];
 
@@ -39,10 +39,10 @@ const Work: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">
           <div className="mb-8 md:mb-0 text-center md:text-left w-full md:w-auto">
-             <span className="uppercase tracking-widest text-sm font-semibold mb-2 block text-eco-600">Selected Work</span>
-             <h2 className="font-serif text-4xl md:text-5xl font-medium text-slate-900">Digital Craftsmanship</h2>
+             <span className="uppercase tracking-widest text-sm font-semibold mb-2 block text-eco-600">Svenska Case Studies</span>
+             <h2 className="font-serif text-4xl md:text-5xl font-medium text-slate-900">Resultat för Svenska Företag</h2>
           </div>
-          <Button variant="outline" className="hidden md:inline-flex">View All Projects</Button>
+          <Button variant="outline" className="hidden md:inline-flex">Se Alla Projekt</Button>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
@@ -68,7 +68,7 @@ const Work: React.FC = () => {
         </div>
         
         <div className="mt-12 text-center md:hidden">
-          <Button variant="outline">View All Projects</Button>
+          <Button variant="outline">Se Alla Projekt</Button>
         </div>
       </div>
     </section>

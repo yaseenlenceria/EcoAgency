@@ -15,10 +15,10 @@ const Navbar: React.FC = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Services', href: '#services' },
-    { name: 'Work', href: '#work' },
-    { name: 'Philosophy', href: '#about' },
-    { name: 'Insights', href: '#insights' },
+    { name: 'Tjänster', href: '#services' },
+    { name: 'Portfolio', href: '#work' },
+    { name: 'Om Oss', href: '#about' },
+    { name: 'Kontakta Oss', href: '#contact' },
   ];
 
   return (
@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
               </a>
             ))}
             <Button variant="primary" size="sm" onClick={() => document.getElementById('contact')?.scrollIntoView({behavior: 'smooth'})}>
-              Start Project
+              Boka Konsultation
             </Button>
           </div>
 
@@ -82,7 +82,7 @@ const Navbar: React.FC = () => {
           ))}
           <div className="pt-2">
             <Button className="w-full" onClick={() => { setMobileMenuOpen(false); document.getElementById('contact')?.scrollIntoView(); }}>
-              Start Project
+              Boka Konsultation
             </Button>
           </div>
         </div>

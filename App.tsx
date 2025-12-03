@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import AIConsultant from './components/AIConsultant';
+import SwedishMarket from './components/SwedishMarket';
 import Work from './components/Work';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -22,6 +23,7 @@ function App() {
         </div>
 
         <Services />
+        <SwedishMarket />
         <About />
         <Work />
         <Contact />

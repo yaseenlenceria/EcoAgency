@@ -4,34 +4,34 @@ import { Layout, Cpu, Globe, Search, BarChart3, PenTool } from 'lucide-react';
 
 const services = [
   {
-    icon: Layout,
-    title: "Sustainable Web Design",
-    description: "Pixel-perfect UIs designed for energy efficiency. Dark mode defaults, efficient assets, and accessible UX."
-  },
-  {
-    icon: Cpu,
-    title: "Green Development",
-    description: "Clean, semantic code using modern frameworks. Optimized for low CPU usage and faster load times."
-  },
-  {
     icon: Search,
-    title: "Eco-SEO Strategy",
-    description: "Rank higher while reducing digital waste. Technical SEO that aligns with search intent perfectly."
+    title: "SEO-optimering Sverige",
+    description: "Ledande SEO-byrå i Stockholm. Vi rankar ditt företag högst på Google för svenska sökord. Teknisk SEO, lokal SEO och e-handelsSEO."
+  },
+  {
+    icon: Layout,
+    title: "Webbutveckling & Webbdesign",
+    description: "Responsive webbplatser för svenska företag. Specialister på Shopify, Magento, och WordPress. Mobilanpassat med svensk UX."
   },
   {
     icon: Globe,
-    title: "Carbon-Neutral Hosting",
-    description: "We deploy exclusively on servers powered by 100% renewable energy sources via Google Cloud & AWS."
+    title: "E-handelslösningar",
+    description: "Komplett e-handelsutveckling för svenska marknaden. Shopify SEO, konverteringsoptimering och svensk betalningsintegration."
   },
   {
     icon: BarChart3,
-    title: "Performance Audits",
-    description: "Deep dive analytics into your current digital footprint with actionable steps to reduce bloat."
+    title: "Digital Marknadsföring",
+    description: "Performance marketing och PPC annonsering i Sverige. Facebook Ads, Instagram Ads och Google Ads med svensk expertis."
   },
   {
     icon: PenTool,
-    title: "Content Strategy",
-    description: "Impactful copywriting that converts. Less fluff, more value, leading to less scrolling and energy use."
+    title: "Social Media Management",
+    description: "Hantering av sociala medier för svenska företag. Content creation, community management och annonsering på svenska."
+  },
+  {
+    icon: Cpu,
+    title: "Branding & Varumärkesbyggande",
+    description: "Grafisk design och branding för svenska företag. Logotyp, profilmaterial och varumärkesstrategi som converterar."
   }
 ];
 
@@ -39,7 +39,7 @@ const Services: React.FC = () => {
   return (
     <section id="services" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading subtitle="Our Expertise" title="Holistic Digital Solutions" />
+        <SectionHeading subtitle="Våra Tjänster" title="Digital Marknadsföring & SEO för Svenska Företag" />
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (

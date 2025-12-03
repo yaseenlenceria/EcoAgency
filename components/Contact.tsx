@@ -15,13 +15,13 @@ const Contact: React.FC = () => {
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-5" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <SectionHeading subtitle="Get in Touch" title="Ready to make an impact?" light />
+        <SectionHeading subtitle="Kontakta Oss" title="Redo att dominera den svenska digitala marknaden?" light />
 
         <div className="grid lg:grid-cols-2 gap-16 mt-16">
           <div className="space-y-8">
-             <h3 className="text-2xl font-serif">Let's build something extraordinary.</h3>
+             <h3 className="text-2xl font-serif">Låt oss bygga din digitala framgång i Sverige.</h3>
              <p className="text-slate-300 leading-relaxed">
-               Whether you need a complete rebrand or a high-performance web platform, we're here to help you navigate the digital landscape sustainably.
+               Oavsett om du behöver SEO-optimering, en ny e-handelsplattform eller komplett digital marknadsföring - vi hjälper svenska företag att nå toppen av Google.
              </p>
 
              <div className="space-y-6 pt-4">
@@ -61,42 +61,42 @@ const Contact: React.FC = () => {
             <form className="space-y-6">
               <div className="grid grid-cols-2 gap-6">
                 <div className="col-span-2 md:col-span-1">
-                  <label className="block text-sm font-medium text-slate-300 mb-2">Name</label>
-                  <input 
-                    type="text" 
-                    name="name" 
+                  <label className="block text-sm font-medium text-slate-300 mb-2">Namn</label>
+                  <input
+                    type="text"
+                    name="name"
                     value={formState.name}
                     onChange={handleChange}
                     className="w-full bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-eco-500 focus:ring-1 focus:ring-eco-500 transition-all"
-                    placeholder="Jane Doe"
+                    placeholder="Anna Andersson"
                   />
                 </div>
                 <div className="col-span-2 md:col-span-1">
-                  <label className="block text-sm font-medium text-slate-300 mb-2">Email</label>
-                  <input 
-                    type="email" 
+                  <label className="block text-sm font-medium text-slate-300 mb-2">E-post</label>
+                  <input
+                    type="email"
                     name="email"
                     value={formState.email}
                     onChange={handleChange}
                     className="w-full bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-eco-500 focus:ring-1 focus:ring-eco-500 transition-all"
-                    placeholder="jane@company.com"
+                    placeholder="anna@foretag.se"
                   />
                 </div>
               </div>
-              
+
               <div>
-                <label className="block text-sm font-medium text-slate-300 mb-2">Project Details</label>
-                <textarea 
+                <label className="block text-sm font-medium text-slate-300 mb-2">Projektdetaljer</label>
+                <textarea
                   name="message"
                   value={formState.message}
                   onChange={handleChange}
                   rows={4}
                   className="w-full bg-slate-800/50 border border-slate-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-eco-500 focus:ring-1 focus:ring-eco-500 transition-all"
-                  placeholder="Tell us about your goals..."
+                  placeholder="Berätta om dina mål och önskemål..."
                 />
               </div>
 
-              <Button variant="primary" size="lg" className="w-full">Send Message</Button>
+              <Button variant="primary" size="lg" className="w-full">Skicka Meddelande</Button>
             </form>
           </div>
         </div>
